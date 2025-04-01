@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from train import train_and_predict  # Import the train_and_predict function from train.py
 
-# Set paths to your data
+# Data Paths
 train_path = os.path.join("dataset", "de_train_split.parquet")
 test_path = os.path.join("dataset", "de_test_split.parquet")
 
